@@ -1,0 +1,3 @@
+my $Asharpcv;
+my $Asharpc = $mw->new_ttk__checkbutton(-text => "Asharp", -variable =>\$Asharpcv, -onvalue => "Asharp", -offvalue => 0);
+Tkx::grid($Asharpc, -column => 3, -row => 1, -sticky => "w");

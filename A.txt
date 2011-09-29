@@ -1,0 +1,3 @@
+my $Acv;
+my $Ac = $mw->new_ttk__checkbutton(-text => "A", -variable =>\$Acv, -onvalue => "A", -offvalue => 0);
+Tkx::grid($Ac, -column => 3, -row => 1, -sticky => "w");
