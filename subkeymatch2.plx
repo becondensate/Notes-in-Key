@@ -18,7 +18,7 @@ my %sharp_notes = (
 );
 
 
-my $string = "A 6 8";
+my $string = "1 3 5 6 8 10 12 1";
 my $note_holder;
 my @input_arr;
 my @data_arr;
