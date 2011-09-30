@@ -1,0 +1,48 @@
+my $Acv;
+my $Ac = $mw->new_ttk__checkbutton(-text => "A", -variable =>\$Acv, -onvalue => "A", -offvalue => 0);
+Tkx::grid($Ac, -column => 3, -row => 1, -sticky => "w");
+
+my $Asharpcv;
+my $Asharpc = $mw->new_ttk__checkbutton(-text => "Asharp", -variable =>\$Asharpcv, -onvalue => "Asharp", -offvalue => 0);
+Tkx::grid($Asharpc, -column => 3, -row => 2, -sticky => "w");
+
+my $Bcv;
+my $Bc = $mw->new_ttk__checkbutton(-text => "B", -variable =>\$Bcv, -onvalue => "B", -offvalue => 0);
+Tkx::grid($Bc, -column => 3, -row => 3, -sticky => "w");
+
+my $Ccv;
+my $Cc = $mw->new_ttk__checkbutton(-text => "C", -variable =>\$Ccv, -onvalue => "C", -offvalue => 0);
+Tkx::grid($Cc, -column => 3, -row => 4, -sticky => "w");
+
+my $Csharpcv;
+my $Csharpc = $mw->new_ttk__checkbutton(-text => "Csharp", -variable =>\$Csharpcv, -onvalue => "Csharp", -offvalue => 0);
+Tkx::grid($Csharpc, -column => 3, -row => 5, -sticky => "w");
+
+my $Dcv;
+my $Dc = $mw->new_ttk__checkbutton(-text => "D", -variable =>\$Dcv, -onvalue => "D", -offvalue => 0);
+Tkx::grid($Dc, -column => 3, -row => 6, -sticky => "w");
+
+my $Dsharpcv;
+my $Dsharpc = $mw->new_ttk__checkbutton(-text => "Dsharp", -variable =>\$Dsharpcv, -onvalue => "Dsharp", -offvalue => 0);
+Tkx::grid($Dsharpc, -column => 3, -row => 7, -sticky => "w");
+
+my $Ecv;
+my $Ec = $mw->new_ttk__checkbutton(-text => "E", -variable =>\$Ecv, -onvalue => "E", -offvalue => 0);
+Tkx::grid($Ec, -column => 3, -row => 8, -sticky => "w");
+
+my $Fcv;
+my $Fc = $mw->new_ttk__checkbutton(-text => "F", -variable =>\$Fcv, -onvalue => "F", -offvalue => 0);
+Tkx::grid($Fc, -column => 3, -row => 9, -sticky => "w");
+
+my $Fsharpcv;
+my $Fsharpc = $mw->new_ttk__checkbutton(-text => "Fsharp", -variable =>\$Fsharpcv, -onvalue => "Fsharp", -offvalue => 0);
+Tkx::grid($Fsharpc, -column => 3, -row => 10, -sticky => "w");
+
+my $Gcv;
+my $Gc = $mw->new_ttk__checkbutton(-text => "G", -variable =>\$Gcv, -onvalue => "G", -offvalue => 0);
+Tkx::grid($Gc, -column => 3, -row => 11, -sticky => "w");
+
+my $Gsharpcv;
+my $Gsharpc = $mw->new_ttk__checkbutton(-text => "Gsharp", -variable =>\$Gsharpcv, -onvalue => "Gsharp", -offvalue => 0);
+Tkx::grid($Gsharpc, -column => 3, -row => 12, -sticky => "w");
+
